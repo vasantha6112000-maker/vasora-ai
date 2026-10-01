@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vasora AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="brand">
+                <div class="logo">V</div>
+                <span>Vasora AI</span>
+            </div>
+
+            <button class="new-chat">
+                + New Chat
+            </button>
+
+            <div class="history">
+                <p class="history-title">Recent Chats</p>
+
+                <div class="chat-item">
+                    Welcome to Vasora AI
+                </div>
+
+                <div class="chat-item">
+                    Research Assistant
+                </div>
+
+                <div class="chat-item">
+                    Business Ideas
+                </div>
+            </div>
+
+            <div class="sidebar-bottom">
+                <div>⚙ Settings</div>
+                <div>👤 Account</div>
+            </div>
+
+        </aside>
+
+
+        <!-- Main Chat Area -->
+        <main class="chat-area">
+
+            <header class="topbar">
+                <span>Vasora AI</span>
+                <button class="upgrade">Upgrade</button>
+            </header>
+
+
+            <section class="welcome">
+
+                <div class="big-logo">V</div>
+
+                <h1>Hello, I'm Vasora AI</h1>
+
+                <p>
+                    Your intelligent AI assistant for learning,
+                    research, business and creativity.
+                </p>
+
+            </section>
+
+
+            <!-- Example prompts -->
+
+            <section class="suggestions">
+
+                <button>
+                    📚 Help me with research
+                </button>
+
+                <button>
+                    💡 Give me business ideas
+                </button>
+
+                <button>
+                    ✍️ Write something for me
+                </button>
+
+                <button>
+                    🧠 Explain a difficult topic
+                </button>
+
+            </section>
+
+
+            <!-- Message area -->
+
+            <div id="messages"></div>
+
+
+            <!-- Input -->
+
+            <div class="input-container">
+
+                <textarea
+                    id="messageInput"
+                    placeholder="Message Vasora AI..."
+                    rows="1">
+                </textarea>
+
+                <button id="sendButton">
+                    ➤
+                </button>
+
+            </div>
+
+            <p class="disclaimer">
+                Vasora AI can make mistakes. Check important information.
+            </p>
+
+        </main>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
